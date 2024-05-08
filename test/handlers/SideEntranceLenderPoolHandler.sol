@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-import {SideEntranceLenderPool} from "../src/SideEntranceLenderPool.sol";
+import {SideEntranceLenderPool} from "../../src/SideEntranceLenderPool.sol";
 
 import "forge-std/Test.sol";
 

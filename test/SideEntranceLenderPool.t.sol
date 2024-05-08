@@ -6,7 +6,7 @@ import "forge-std/Vm.sol";
 import "forge-std/console2.sol";
 
 import "../src/SideEntranceLenderPool.sol";
-import "../src/SideEntranceLenderPoolHandler.sol";
+import "./handlers/SideEntranceLenderPoolHandler.sol";
 
 contract InvariantSideEntranceLenderPool is Test {
     SideEntranceLenderPool pool;
